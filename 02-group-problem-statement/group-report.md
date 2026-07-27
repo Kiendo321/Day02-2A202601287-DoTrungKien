@@ -4,19 +4,116 @@
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm |
 |-----|-----------|-------------|--------------------|
-| 1   |           |             |                    |
-| 2   |           |             |                    |
-| 3   |           |             |                    |
-| 4   |           |             |                    |
-| 5   |           |             |                    |
+| 1 | Nguyễn Văn Hưng | 2A202601251 | Nhóm trưởng |
+| 2 | Nguyễn Đình Liêm | 2A202601421 | Thành viên |
+| 3 | Lê Trần Long | 2A202601257 | Thành viên |
+| 4 | Nguyễn Minh Phúc | 2A201601161 | Thành viên |
+| 5 | Thạch Minh Quân | 2A202601585 | Thành viên |
+| 6 | Nguyễn Thành Duy | 2A202601599 | Thành viên |
+| 7 | Đỗ Trung Kiên | 2A202601287 | Thành viên |
+| 8 | Nguyễn Hồng Yến | 2A202601065 | Thành viên |
 
-## Candidate problem nhóm đã chọn
+---
+
+# Phase 3 — Group Convergence: từ 14 candidates về 1
+
+## 3.1. Danh sách candidates được nhóm pitch
+
+Mỗi candidate được tóm tắt theo problem, actor, bottleneck và quick gut. Dữ liệu nhóm cung cấp có 14 candidates; không phải mọi thành viên đều có đủ ba candidate trong bảng tổng hợp cuối.
+
+| # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn chính | Quick gut |
+|---:|---|---|---|---|---|
+| 1 | Đỗ Trung Kiên | Điều chỉnh CV và Cover Letter theo JD | Người muốn tìm việc và đang chuẩn bị ứng tuyển | Đọc JD, đối chiếu với master CV và viết lại bullet points/Cover Letter mà không bịa thông tin; khoảng 20 phút/hồ sơ | Workflow |
+| 2 | Đỗ Trung Kiên | Trợ lý hỗ trợ giải đáp câu hỏi lập trình | Sinh viên/người mới học lập trình | Câu hỏi đăng lên cộng đồng bị ngó lơ hoặc mỉa mai; phải tiếp tục tự tìm Stack Overflow | Workflow / Agent |
+| 3 | Đỗ Trung Kiên | Chấm và feedback IELTS Writing | Người học IELTS trong thời gian gấp | Chờ giáo viên/trung tâm chấm 3-5 ngày; feedback đôi khi chung chung | Workflow |
+| 4 | Nguyễn Hồng Yến | Weekly Lab Progress Report | Thành viên và leader nhóm AI | Viết narrative tổng hợp từ Git và Discord mất khoảng 25 phút | Workflow |
+| 5 | Nguyễn Hồng Yến | Trích xuất ý chính từ AI research paper | Sinh viên/người nghiên cứu AI | Đọc 15-20 trang mất khoảng 75 phút/bài và khó lọc điểm cốt lõi | Workflow |
+| 6 | Nguyễn Hồng Yến | Tra cứu quyết định cũ trong Discord nhóm | Thành viên nhóm đồ án | Quyết định nằm rải rác; search từ khóa mất 15-20 phút/lần | Agent / Workflow |
+| 7 | Lê Trần Long | Nhật ký và troubleshooting lỗi hệ thống/máy tính | Người tự xử lý lỗi PC/driver | Không ghi lại các bước đã thử; lỗi cũ tái diễn phải research lại 1-2 giờ | Workflow |
+| 8 | Nguyễn Đình Liêm | Sàng lọc bài báo khoa học phù hợp đề tài | Sinh viên làm đồ án/người nghiên cứu | Đọc thủ công nhiều bài nhưng phần lớn không khớp đề tài; khoảng 90 phút/10 bài | Workflow |
+| 9 | Nguyễn Đình Liêm | Quản lý chi tiêu cá nhân từ nhiều nguồn | Người có chi tiêu qua tiền mặt, ngân hàng và ví điện tử | Dữ liệu phân tán, phải nhập tay nên dễ bỏ ghi chép | Workflow |
+| 10 | Nguyễn Đình Liêm | Tổng hợp thông tin onboarding môi trường mới | Thực tập sinh/người mới gia nhập tổ chức | Quy trình và tài liệu nằm rải rác trong email, Drive và Discord | Workflow |
+| 11 | Nguyễn Minh Phúc | Lên lịch trình và tổng hợp địa điểm du lịch | Người lên kế hoạch du lịch | Mất nhiều ngày rà soát thông tin trái chiều trên TikTok, Maps và Facebook | Workflow / Agent |
+| 12 | Thạch Minh Quân | Tra cứu điểm danh và bài nộp tập trung | Học viên môn học | Danh sách bài cần nộp và trạng thái đã nộp nằm ở hai nơi khác nhau | No AI / Rule |
+| 13 | Nguyễn Thành Duy | Daily/Weekly Activity Planner | Cá nhân cần quản lý lịch | Điền công việc và sắp xếp khung giờ mất 1-2 giờ/ngày | Workflow |
+| 14 | Nguyễn Văn Hưng | Tìm và sàng lọc phòng trọ | Người tìm trọ tại Hà Nội | Thông tin rải rác, không đồng nhất, có thể đã hết phòng hoặc là bài lừa đảo | Workflow |
+
+## 3.2. Gom trùng và phân cụm
+
+| Cluster | Candidates included | Pattern chung | Ghi chú của nhóm |
+|---|---|---|---|
+| **A. Hồ sơ, đánh giá và học thuật** | Điều chỉnh CV/CL; sàng lọc paper; feedback IELTS | Phân tích tài liệu đầu vào → đối chiếu tiêu chí/năng lực → tạo đánh giá hoặc bản nháp có cấu trúc | Workflow tương đối rõ; impact có thể đo bằng thời gian và chất lượng đầu ra |
+| **B. Báo cáo và năng suất học tập** | Weekly Lab Report; tra cứu điểm danh/bài nộp; Daily/Weekly Planner | Gom dữ liệu thô → chuẩn hóa → tạo báo cáo, trạng thái hoặc lịch trình | Gần bối cảnh lớp học; một số bước có thể chỉ cần Rule/process fix |
+| **C. Tra cứu và quản lý tri thức** | Troubleshooting log; quyết định Discord; onboarding | Ghi nhận/index dữ liệu cũ → tìm lại theo bối cảnh → đề xuất next step | Cần data source, indexing và quyền truy cập trước khi AI hữu ích |
+| **D. Tìm kiếm và đời sống** | Tìm phòng trọ; lập lịch du lịch; quản lý chi tiêu | Gom dữ liệu từ nhiều nguồn → kiểm tra/so sánh → đưa ra shortlist hoặc gợi ý | Data access phức tạp; freshness, độ tin cậy và privacy là rủi ro lớn |
+
+## 3.3. Shortlist
+
+Nhóm dùng các câu hỏi của worksheet: actor có rõ không, workflow và bottleneck có vẽ được không, impact có đo được không, có thể so sánh Rule/Workflow/Agent không, và scope có phù hợp thời gian lab không.
+
+| Candidate | Vì sao vào shortlist | Rủi ro / điều chưa rõ |
+|---|---|---|
+| **Điều chỉnh CV và Cover Letter theo JD** | Workflow tuyến tính; quan sát ban đầu khoảng 20 phút/hồ sơ và 10-20 hồ sơ/kỳ; có human boundary rõ; có thể so sánh template, Rule và Workflow | Baseline mới từ một problem owner; chưa chứng minh tăng tỷ lệ được tuyển; AI có thể bịa hoặc nâng khống claim |
+| **Tìm và sàng lọc phòng trọ** | Pain thực tế; actor và nhu cầu rõ; impact liên quan cả thời gian, chi phí và an toàn | Khó lấy dữ liệu cập nhật/chính thống; không dễ xác minh phòng còn trống hay bài đăng lừa đảo trong thời lượng lab |
+| **Sàng lọc bài báo nghiên cứu** | Có baseline khoảng 90 phút/10 bài; workflow bóc tách mục tiêu, phương pháp và dữ liệu rõ | Độ liên quan phụ thuộc đề tài cụ thể; AI có thể bỏ sót nuance hoặc suy luận từ abstract không đủ |
+
+## 3.4. Chấm điểm và đồng thuận
+
+Worksheet sử dụng **7 tiêu chí**, mỗi tiêu chí chấm 1-5; vì vậy tổng tối đa là **35 điểm**, không phải 40.
+
+Điểm này dùng để so sánh tương đối tại Phase 3, không thay thế validation. Candidate CV/JD không nhận điểm evidence tuyệt đối vì baseline mới đến từ một problem owner.
+
+| Candidate | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Điều chỉnh CV và Cover Letter theo JD | 5 | 5 | 4 | 5 | 5 | 5 | 5 | **34/35 — chọn** |
+| Sàng lọc bài báo nghiên cứu | 4 | 5 | 4 | 4 | 4 | 5 | 4 | 30/35 |
+| Tìm và sàng lọc phòng trọ | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 29/35 |
+
+### Candidate nhóm chọn
+
+```text
+Điều chỉnh CV và Cover Letter theo JD
+— đề xuất của Đỗ Trung Kiên.
+```
+
+### Vì sao chọn
+
+- **Có nhu cầu gần với nhóm:** các thành viên đang hoặc sắp tham gia thị trường việc làm; actor mục tiêu được mở rộng thành mọi người muốn tìm việc, không chỉ sinh viên.
+- **Workflow và bottleneck rõ:** đọc JD → so sánh master CV → map evidence → điều chỉnh CV/Cover Letter → review.
+- **Impact ban đầu đo được:** khoảng 20 phút/hồ sơ và 10-20 hồ sơ/kỳ theo quan sát của problem owner.
+- **Draft metric rõ:** kiểm tra khả năng giảm thời gian xuống không quá 10 phút/hồ sơ; đây là target cần validation ở Phase 4, chưa phải kết quả đã chứng minh.
+- **Boundary có thể thiết kế:** mọi claim phải dựa trên evidence thật và người dùng approve trước khi nộp.
+- **Có phương án thay thế:** master CV, template và checklist có thể làm baseline thay vì mặc định dùng AI.
+
+### Vì sao không chọn hai candidate còn lại
+
+- **Tìm và sàng lọc phòng trọ:** impact cao nhưng data phân tán, freshness thấp và khó xác minh trạng thái/lừa đảo trong buổi lab.
+- **Sàng lọc paper:** workflow tốt nhưng relevance cần context nghiên cứu sâu; kiểm tra chất lượng output khó hơn trong thời gian lab.
+
+### Xử lý disagreement
+
+Nguyễn Văn Hưng ưu tiên bài tìm phòng trọ và Nguyễn Đình Liêm ưu tiên bài sàng lọc paper. Nhóm không vote ngay mà dùng cùng bảy tiêu chí để so sánh. Bài CV/JD có workflow, baseline và boundary rõ hơn cho một pilot nhỏ; hai bài còn lại có data/validation risk lớn hơn. Sau khi rà bảng điểm và phạm vi lab, nhóm đồng thuận chọn bài CV/JD.
+
+### Cách dùng AI trong Phase 3
+
+Nội dung pitch, challenge, chấm điểm và quyết định là dữ liệu thảo luận do nhóm cung cấp. AI chỉ được dùng sau đó để chuẩn hóa notes thành bảng, kiểm tra phép cộng và align thuật ngữ với worksheet; AI không thay nhóm chọn candidate.
+
+### Self-check Phase 3
+
+- [x] Có danh sách candidates với actor, bottleneck và quick gut.
+- [x] Không chọn ngay bằng vote; đã cluster, shortlist rồi score.
+- [x] Có lý do chọn và không chọn.
+- [x] Có ghi lại disagreement và cách xử lý.
+- [x] Output của Phase 3 là **candidate problem**, chưa phải Problem Statement hoàn chỉnh.
+- [x] Target thời gian và giả thuyết AI được ghi là draft để validation ở Phase 4.
+
+## Output Phase 3 — Candidate problem nhóm đã chọn
 
 ### Problem Card tóm tắt
 
-**Problem một câu:** Sinh viên năm cuối hoặc người mới tốt nghiệp đang tìm việc mất khoảng 20 phút để điều chỉnh CV và Cover Letter theo từng JD. Với 10-20 công ty trong một kỳ tìm việc, workflow lặp lại này tiêu tốn khoảng 200-400 phút.
+**Problem một câu:** Người muốn tìm việc và đang chuẩn bị ứng tuyển mất khoảng 20 phút để điều chỉnh CV và Cover Letter theo từng JD. Với 10-20 công ty trong một kỳ tìm việc, workflow lặp lại này tiêu tốn khoảng 200-400 phút.
 
-**Actor chính:** Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển.
+**Actor chính:** Người muốn tìm việc và đang chủ động chuẩn bị hồ sơ ứng tuyển, không giới hạn độ tuổi, tình trạng việc làm hoặc số năm kinh nghiệm.
 
 **Stakeholder:** Nhà tuyển dụng tiếp nhận và sàng lọc hồ sơ.
 
@@ -44,7 +141,7 @@ Phép tính 200-400 phút là impact suy ra từ cùng một baseline, **không 
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác / giới hạn | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Quan sát trực tiếp của problem owner | 1 người; 10-20 hồ sơ/kỳ | Workflow xảy ra lặp lại; baseline khoảng 20 phút/hồ sơ; tổng effort đủ lớn để đáng kiểm tra | Chưa bấm giờ từng bước; chỉ có một người; chưa biết 20 phút có giống với người khác không | Giữ time-saving là giả thuyết cần pilot, không khẳng định đây là baseline của mọi sinh viên |
+| Quan sát trực tiếp của problem owner | 1 người; 10-20 hồ sơ/kỳ | Workflow xảy ra lặp lại; baseline khoảng 20 phút/hồ sơ; tổng effort đủ lớn để đáng kiểm tra | Chưa bấm giờ từng bước; chỉ có một người; chưa biết 20 phút có giống với người khác không | Giữ time-saving là giả thuyết cần pilot, không khẳng định đây là baseline của mọi người tìm việc |
 | Quick interview | 0 | Chưa thực hiện | Chưa biết người khác có cùng pain, workaround hay mức thời gian hay không | Bắt buộc phỏng vấn thêm trước khi mở rộng sản phẩm |
 | Survey / poll | 0 | Chưa thực hiện | Chưa có phân bố tần suất, thời gian hoặc mức độ đáng giải quyết | Không dùng tỷ lệ phần trăm đại diện cho cộng đồng |
 | Research công cụ hiện có | 4 pattern/tool | Nhiều sản phẩm đã hỗ trợ CV template, JD matching hoặc AI drafting, cho thấy workflow này đã được thị trường sản phẩm chú ý | Sự tồn tại của tool không chứng minh pain của nhóm người dùng mục tiêu; cũng có thể là tín hiệu rằng giải pháp hiện có đã đủ | Chuyển câu hỏi từ “có nên build tool mới?” sang “workflow tối thiểu nào tạo thêm giá trị và kiểm soát claim tốt hơn?” |
@@ -57,7 +154,7 @@ Phép tính 200-400 phút là impact suy ra từ cùng một baseline, **không 
 
 ### Tín hiệu chưa xác nhận
 
-- Chưa chứng minh đa số sinh viên mất khoảng 20 phút/hồ sơ.
+- Chưa chứng minh đa số người tìm việc mất khoảng 20 phút/hồ sơ.
 - Chưa tách được thời gian cho đọc JD, chỉnh CV, viết Cover Letter và review.
 - Chưa có dữ liệu cho thấy cá nhân hóa bằng AI làm tăng tỷ lệ được phỏng vấn hoặc “được accept”.
 - Chưa biết người dùng hiện đã dùng template hoặc công cụ tương tự hay chưa.
@@ -67,7 +164,7 @@ Phép tính 200-400 phút là impact suy ra từ cùng một baseline, **không 
 Problem ban đầu có mục tiêu “tăng cơ hội được accept”. Nhóm thu hẹp lại:
 
 ```text
-Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển
+Người muốn tìm việc và đang chủ động chuẩn bị hồ sơ ứng tuyển
 phải lặp lại việc đối chiếu từng JD với kinh nghiệm thật rồi chỉnh CV
 và Cover Letter. Với quan sát ban đầu khoảng 20 phút/hồ sơ và
 10-20 hồ sơ/kỳ, workflow này tiêu tốn khoảng 200-400 phút.
@@ -80,7 +177,7 @@ Tỷ lệ nhận phản hồi/phỏng vấn được giữ làm **secondary metr
 
 ### Kế hoạch validation tiếp theo
 
-Phỏng vấn nhanh 3-5 sinh viên/người mới tốt nghiệp đã nộp ít nhất năm hồ sơ trong ba tháng gần nhất:
+Phỏng vấn nhanh 3-5 người đang tìm việc, thuộc nhiều mức kinh nghiệm khác nhau, và đã nộp ít nhất năm hồ sơ trong ba tháng gần nhất:
 
 1. Lần gần nhất bạn điều chỉnh CV cho một JD là khi nào?
 2. Bạn đã thay những phần nào và mất bao lâu cho từng phần?
@@ -205,7 +302,7 @@ Các con số theo bước ở future state là **time budget của pilot**, kh�
 
 | Field | Nội dung |
 |---|---|
-| **Actor** | Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển 10-20 công ty trong một kỳ tìm việc. |
+| **Actor** | Người muốn tìm việc và đang chủ động chuẩn bị hồ sơ ứng tuyển cho nhiều doanh nghiệp trong một kỳ tìm việc, không giới hạn độ tuổi hoặc mức kinh nghiệm. |
 | **Workflow** | Đọc JD → so sánh với master CV → chọn/đổi thứ tự nội dung → viết lại bullet points → chỉnh Cover Letter → kiểm tra và nộp. |
 | **Bottleneck** | Cụm bước đối chiếu JD với kinh nghiệm thật và viết lại CV/Cover Letter; tổng workflow hiện mất khoảng 20 phút/hồ sơ theo quan sát của một problem owner. |
 | **Impact** | Khoảng 200-400 phút mỗi kỳ tìm việc, tương đương 3 giờ 20 phút đến 6 giờ 40 phút; ứng viên có thể dùng hồ sơ chung hoặc bỏ qua cơ hội vì effort lặp lại. |
@@ -283,7 +380,7 @@ Nhóm chưa biết Rule giải được 70-80% case hay không. Pilot phải đo
 
 | Field | Nội dung |
 |---|---|
-| **Actor** | Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển nhiều vị trí trong cùng một kỳ tìm việc. |
+| **Actor** | Người muốn tìm việc và đang chủ động chuẩn bị hồ sơ ứng tuyển nhiều vị trí trong cùng một kỳ tìm việc, bao gồm người chưa có việc, người muốn đổi việc và người muốn chuyển ngành. |
 | **Workflow** | Chọn JD → đọc và trích tiêu chí → đối chiếu với master CV → chọn evidence → chỉnh CV → viết Cover Letter → review và tự nộp. |
 | **Bottleneck** | Đối chiếu các yêu cầu được viết tự do trong JD với kinh nghiệm thật rồi diễn đạt lại CV/Cover Letter. Quan sát ban đầu cho thấy toàn workflow mất khoảng 20 phút/hồ sơ, nhưng baseline mới có một người. |
 | **Impact** | Với 10-20 hồ sơ/kỳ, effort ước tính 200-400 phút; workflow lặp lại có thể khiến ứng viên dùng một hồ sơ chung hoặc giảm số cơ hội họ sẵn sàng theo đuổi. |
@@ -321,7 +418,7 @@ Not Yet cho production integration hoặc auto-submit.
 
 ### Pilot nhỏ nhất
 
-**Mẫu:** 3 sinh viên/người mới tốt nghiệp, mỗi người chọn 4 JD trong một job family; tổng 12 bộ hồ sơ thử nghiệm.
+**Mẫu:** 3 người đang tìm việc thuộc các mức kinh nghiệm khác nhau, mỗi người chọn 4 JD trong một job family; tổng 12 bộ hồ sơ thử nghiệm.
 
 **Thiết kế:**
 
@@ -354,3 +451,35 @@ Not Yet cho production integration hoặc auto-submit.
 - Tách baseline theo job family, mức kinh nghiệm và việc có/không cần Cover Letter.
 - So sánh Workflow với Rule/template, không chỉ so với “làm hoàn toàn thủ công”.
 - Chỉ nghiên cứu tỷ lệ nhận phản hồi sau khi có đủ hồ sơ và kiểm soát các yếu tố gây nhiễu; không dùng metric này để quảng bá sớm.
+
+---
+
+# Kiểm tra alignment với README và Worksheet
+
+| Yêu cầu | Trạng thái | Evidence trong report | Khoảng trống / hành động |
+|---|---|---|---|
+| Nhật ký hội tụ từ candidates về một bài | **Đủ** | Phase 3 có 14 candidates, 4 clusters, shortlist, score, lý do chọn/loại và disagreement | Quy mô nhóm 8 người khác gợi ý 3-4 người nhưng đã ghi rõ |
+| Chỉ chọn candidate ở Phase 3, chưa viết PS sớm | **Đủ** | Output Phase 3 được gọi là candidate problem; PS v0 chỉ xuất hiện sau validation/research/workflow | Không |
+| Quick validation pain | **Một phần** | Có self-report/quan sát trực tiếp của một problem owner | Cần thêm 3-5 interviews hoặc survey/log; không được trình bày baseline như đại diện cho mọi người tìm việc |
+| Research 2-3 solution/pattern và hyperlink | **Đủ** | Có 4 nguồn: Europass, LinkedIn, Teal, Kickresume; nêu bước giải quyết, điểm mạnh, khoảng trống và bài học | Claim marketing của vendor không được dùng làm evidence hiệu quả |
+| Current workflow có actor, input, output, tần suất, handoff, bottleneck | **Gần đủ** | Phase 5.1 có 6 bước và tổng baseline khoảng 20 phút/hồ sơ | Chưa có timer theo từng bước; cần đo trong pilot |
+| Future workflow có Rule, AI, human boundary và fallback | **Đủ** | Phase 5.2 chỉ rõ loại xử lý, evidence map, review, submit và rollback | Time budget là target, chưa phải kết quả |
+| Before/after workflow | **Đủ về thiết kế** | Có current/future ASCII flow và bảng impact | Cần pilot để biến “sau kỳ vọng” thành kết quả |
+| Problem Statement có actor, workflow, bottleneck, impact, metric, boundary | **Đủ** | PS v0 và v1 đều có các field; v1 bổ sung intervention point và risk | Baseline cần sample lớn hơn |
+| Metric có baseline, target và cách đo | **Đủ cho pilot** | Khoảng 20 phút → ≤10 phút, ≥40% reduction, timer, evidence checker và rubric 1-5 | Không dùng tỷ lệ được tuyển làm claim khi chưa kiểm soát biến gây nhiễu |
+| So sánh No AI / Rule / Workflow / Agent | **Đủ** | Phase 6.1 có cả bốn mức, điều kiện đủ, rủi ro và lựa chọn | Pilot phải kiểm tra liệu Rule đã đủ hay chưa |
+| AI được phép làm gì và người thật kiểm gì | **Đủ** | AI chỉ map evidence/draft; người tìm việc verify/edit/submit | Không mở auto-submit |
+| Go / Not Yet / No-Go có lý do | **Đủ** | Go với pilot giới hạn; Not Yet cho production/auto-submit | Quyết định phải được cập nhật sau pilot |
+| Pilot nhỏ nhất và rollback | **Đủ** | Có sample, thiết kế A/B nhỏ, pass criteria và exit/rollback | Chưa thực thi pilot |
+
+## Kết luận readiness
+
+```text
+Artifact đã đủ cấu trúc bắt buộc từ Phase 3 đến Phase 6
+và các phần đang align logic với nhau.
+
+Chưa đủ để tuyên bố problem đã được validation rộng hoặc giải pháp hiệu quả.
+Hai việc còn thiếu bằng chứng thật:
+1. Phỏng vấn/log thêm người tìm việc.
+2. Đo thời gian từng bước và chạy pilot before/after.
+```
