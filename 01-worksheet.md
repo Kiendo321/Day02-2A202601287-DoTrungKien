@@ -114,6 +114,7 @@ Bonus:
 
 - 8+ problems: bonus nếu vẫn cụ thể.
 - 10+ problems: bonus tốt nếu đa dạng lăng kính và có dấu hiệu thật.
+- kiểm chứng/research: chứng minh được
 - Không bonus cho list dài nhưng toàn ý chung chung.
 
 ## 4 lăng kính để scan
