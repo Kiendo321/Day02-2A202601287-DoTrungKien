@@ -14,7 +14,7 @@
 
 ### Problem Card tóm tắt
 
-**Problem một câu:** Sinh viên năm cuối hoặc người mới tốt nghiệp đang tìm việc mất khoảng 20 phút để điều chỉnh CV và Cover Letter theo từng JD. Với 10–20 công ty trong một kỳ tìm việc, workflow lặp lại này tiêu tốn khoảng 200–400 phút.
+**Problem một câu:** Sinh viên năm cuối hoặc người mới tốt nghiệp đang tìm việc mất khoảng 20 phút để điều chỉnh CV và Cover Letter theo từng JD. Với 10-20 công ty trong một kỳ tìm việc, workflow lặp lại này tiêu tốn khoảng 200-400 phút.
 
 **Actor chính:** Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển.
 
@@ -37,14 +37,14 @@
 Nhóm hiện có một quan sát trực tiếp từ problem owner:
 
 - mỗi hồ sơ mất khoảng 20 phút để điều chỉnh CV và Cover Letter;
-- một kỳ tìm việc thường nộp 10–20 hồ sơ;
-- tổng effort suy ra là `20 phút × 10–20 hồ sơ = 200–400 phút`, tương đương khoảng 3 giờ 20 phút đến 6 giờ 40 phút.
+- một kỳ tìm việc thường nộp 10-20 hồ sơ;
+- tổng effort suy ra là `20 phút × 10-20 hồ sơ = 200-400 phút`, tương đương khoảng 3 giờ 20 phút đến 6 giờ 40 phút.
 
-Phép tính 200–400 phút là impact suy ra từ cùng một baseline, **không phải một mẫu validation độc lập**.
+Phép tính 200-400 phút là impact suy ra từ cùng một baseline, **không phải một mẫu validation độc lập**.
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác / giới hạn | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Quan sát trực tiếp của problem owner | 1 người; 10–20 hồ sơ/kỳ | Workflow xảy ra lặp lại; baseline khoảng 20 phút/hồ sơ; tổng effort đủ lớn để đáng kiểm tra | Chưa bấm giờ từng bước; chỉ có một người; chưa biết 20 phút có giống với người khác không | Giữ time-saving là giả thuyết cần pilot, không khẳng định đây là baseline của mọi sinh viên |
+| Quan sát trực tiếp của problem owner | 1 người; 10-20 hồ sơ/kỳ | Workflow xảy ra lặp lại; baseline khoảng 20 phút/hồ sơ; tổng effort đủ lớn để đáng kiểm tra | Chưa bấm giờ từng bước; chỉ có một người; chưa biết 20 phút có giống với người khác không | Giữ time-saving là giả thuyết cần pilot, không khẳng định đây là baseline của mọi sinh viên |
 | Quick interview | 0 | Chưa thực hiện | Chưa biết người khác có cùng pain, workaround hay mức thời gian hay không | Bắt buộc phỏng vấn thêm trước khi mở rộng sản phẩm |
 | Survey / poll | 0 | Chưa thực hiện | Chưa có phân bố tần suất, thời gian hoặc mức độ đáng giải quyết | Không dùng tỷ lệ phần trăm đại diện cho cộng đồng |
 | Research công cụ hiện có | 4 pattern/tool | Nhiều sản phẩm đã hỗ trợ CV template, JD matching hoặc AI drafting, cho thấy workflow này đã được thị trường sản phẩm chú ý | Sự tồn tại của tool không chứng minh pain của nhóm người dùng mục tiêu; cũng có thể là tín hiệu rằng giải pháp hiện có đã đủ | Chuyển câu hỏi từ “có nên build tool mới?” sang “workflow tối thiểu nào tạo thêm giá trị và kiểm soát claim tốt hơn?” |
@@ -70,7 +70,7 @@ Problem ban đầu có mục tiêu “tăng cơ hội được accept”. Nhóm 
 Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển
 phải lặp lại việc đối chiếu từng JD với kinh nghiệm thật rồi chỉnh CV
 và Cover Letter. Với quan sát ban đầu khoảng 20 phút/hồ sơ và
-10–20 hồ sơ/kỳ, workflow này tiêu tốn khoảng 200–400 phút.
+10-20 hồ sơ/kỳ, workflow này tiêu tốn khoảng 200-400 phút.
 
 Nhóm cần kiểm tra liệu có thể giảm thời gian tạo một bản nháp phù hợp
 với JD mà không tạo claim không có bằng chứng hay không.
@@ -80,7 +80,7 @@ Tỷ lệ nhận phản hồi/phỏng vấn được giữ làm **secondary metr
 
 ### Kế hoạch validation tiếp theo
 
-Phỏng vấn nhanh 3–5 sinh viên/người mới tốt nghiệp đã nộp ít nhất năm hồ sơ trong ba tháng gần nhất:
+Phỏng vấn nhanh 3-5 sinh viên/người mới tốt nghiệp đã nộp ít nhất năm hồ sơ trong ba tháng gần nhất:
 
 1. Lần gần nhất bạn điều chỉnh CV cho một JD là khi nào?
 2. Bạn đã thay những phần nào và mất bao lâu cho từng phần?
@@ -140,7 +140,7 @@ Nhóm mới có baseline tổng khoảng 20 phút; chưa có log thời gian đ�
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Handoff / ghi chú |
 |---:|---|---|---|---|---|
-| 1 | Ứng viên | JD của doanh nghiệp | JD đã đánh dấu responsibility, skill và keyword | Chưa tách thời gian; 10–20 lần/kỳ tìm việc | Sang bước 2, vẫn do ứng viên xử lý |
+| 1 | Ứng viên | JD của doanh nghiệp | JD đã đánh dấu responsibility, skill và keyword | Chưa tách thời gian; 10-20 lần/kỳ tìm việc | Sang bước 2, vẫn do ứng viên xử lý |
 | 2 | Ứng viên | JD đã đánh dấu + master CV | Danh sách match, gap và evidence có thể dùng | Chưa tách thời gian | Sang bước 3 |
 | 3 | Ứng viên | Danh sách match/gap + CV gốc | Bộ nội dung được chọn và sắp xếp lại | Chưa tách thời gian | Một phần bottleneck |
 | 4 | Ứng viên | Bullet points và evidence gốc | Bullet points đã điều chỉnh | Chưa tách thời gian | Không được thêm claim không có thật |
@@ -152,7 +152,7 @@ Nhóm mới có baseline tổng khoảng 20 phút; chưa có log thời gian đ�
 ### Bottleneck chính
 
 ```text
-Cụm bước 2–5: biến JD thành lựa chọn nội dung và cách diễn đạt phù hợp,
+Cụm bước 2-5: biến JD thành lựa chọn nội dung và cách diễn đạt phù hợp,
 trong khi phải bảo đảm mọi kỹ năng, kinh nghiệm và thành tích đều có thật.
 ```
 
@@ -193,7 +193,7 @@ Các con số theo bước ở future state là **time budget của pilot**, kh�
 
 | Metric | Trước | Sau kỳ vọng | Ghi chú |
 |---|---:|---:|---|
-| Số bước | 6 | 6 | Không giảm số bước; giảm effort ở bước đọc–map–draft |
+| Số bước | 6 | 6 | Không giảm số bước; giảm effort ở bước đọc-map-draft |
 | Tổng thời gian | Khoảng 20 phút/hồ sơ | Không quá 10 phút/hồ sơ | Target chính; phải đo bằng timer |
 | Bước hoàn toàn thủ công | 6/6 | 3/6 | Human vẫn chọn input, review và nộp |
 | Bottleneck chính | Đối chiếu + viết lại CV/CL | Verify evidence + edit | Human boundary |
@@ -205,10 +205,10 @@ Các con số theo bước ở future state là **time budget của pilot**, kh�
 
 | Field | Nội dung |
 |---|---|
-| **Actor** | Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển 10–20 công ty trong một kỳ tìm việc. |
+| **Actor** | Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển 10-20 công ty trong một kỳ tìm việc. |
 | **Workflow** | Đọc JD → so sánh với master CV → chọn/đổi thứ tự nội dung → viết lại bullet points → chỉnh Cover Letter → kiểm tra và nộp. |
 | **Bottleneck** | Cụm bước đối chiếu JD với kinh nghiệm thật và viết lại CV/Cover Letter; tổng workflow hiện mất khoảng 20 phút/hồ sơ theo quan sát của một problem owner. |
-| **Impact** | Khoảng 200–400 phút mỗi kỳ tìm việc, tương đương 3 giờ 20 phút đến 6 giờ 40 phút; ứng viên có thể dùng hồ sơ chung hoặc bỏ qua cơ hội vì effort lặp lại. |
+| **Impact** | Khoảng 200-400 phút mỗi kỳ tìm việc, tương đương 3 giờ 20 phút đến 6 giờ 40 phút; ứng viên có thể dùng hồ sơ chung hoặc bỏ qua cơ hội vì effort lặp lại. |
 | **Success Metric** | Giảm thời gian xuống không quá 10 phút/hồ sơ; 0 claim không có evidence trong bản cuối; ứng viên approve trước khi nộp. |
 | **Boundary** | Chỉ dùng JD và dữ liệu do ứng viên cung cấp; không bịa kỹ năng/kinh nghiệm/thành tích; không tự chọn việc; không tự nộp hồ sơ; không thay ứng viên quyết định nội dung cuối. |
 
@@ -247,7 +247,7 @@ Kết luận từ ma trận: độ phức tạp và mơ hồ cao làm AI hữu �
 
 | Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro / giới hạn | Chọn? |
 |---|---|---|---|---|
-| **No AI / process fix** | Master CV, 2–3 template theo job family, Cover Letter skeleton và checklist review | Đủ khi các JD tương tự nhau và ứng viên có ít hồ sơ | Vẫn phải đọc, map và viết thủ công; có thể bỏ sót semantic match | Dùng làm baseline và fallback |
+| **No AI / process fix** | Master CV, 2-3 template theo job family, Cover Letter skeleton và checklist review | Đủ khi các JD tương tự nhau và ứng viên có ít hồ sơ | Vẫn phải đọc, map và viết thủ công; có thể bỏ sót semantic match | Dùng làm baseline và fallback |
 | **Rule** | Trích keyword, chia must-have/preferred, chọn section theo bảng mapping cố định | Đủ khi JD có cấu trúc ổn định và chỉ cần thay section/keyword rõ ràng | Không hiểu tốt synonym, context hoặc mức độ liên quan; dễ khuyến khích keyword stuffing | Dùng cho input validation và cấu trúc |
 | **Workflow** | Rule trích tiêu chí → AI map evidence → AI draft → ứng viên verify/edit → ứng viên tự nộp | Phù hợp khi đường đi cố định nhưng mapping/drafting có độ mơ hồ cao | Hallucination, overclaim, privacy, văn phong generic; cần human review | **Chọn** |
 | **Agent** | Tự tìm JD, chọn việc, đọc dữ liệu cá nhân, chỉnh hồ sơ, điền form và nộp | Chỉ đáng cân nhắc nếu cần tự lập kế hoạch động qua nhiều nền tảng và đã có permission/boundary rất chặt | Quyền truy cập rộng; có thể nộp sai việc hoặc sai claim; khó rollback sau khi gửi; rủi ro riêng tư cao | Không chọn |
@@ -270,7 +270,7 @@ Workflow.
 
 No-AI/template và Rule có thể giải một phần đáng kể, nên được dùng làm baseline. Tuy nhiên, chúng chưa chắc giảm được effort ở phần khó nhất: nối một yêu cầu được diễn đạt tự do trong JD với bằng chứng liên quan trong kinh nghiệm thật và viết lại tự nhiên.
 
-Nhóm chưa biết Rule giải được 70–80% case hay không. Pilot phải đo điều này; nếu Rule đạt mục tiêu với ít rủi ro hơn, nhóm sẽ hạ mức từ Workflow về Rule.
+Nhóm chưa biết Rule giải được 70-80% case hay không. Pilot phải đo điều này; nếu Rule đạt mục tiêu với ít rủi ro hơn, nhóm sẽ hạ mức từ Workflow về Rule.
 
 ### Vì sao không chọn Agent
 
@@ -286,7 +286,7 @@ Nhóm chưa biết Rule giải được 70–80% case hay không. Pilot phải �
 | **Actor** | Sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển nhiều vị trí trong cùng một kỳ tìm việc. |
 | **Workflow** | Chọn JD → đọc và trích tiêu chí → đối chiếu với master CV → chọn evidence → chỉnh CV → viết Cover Letter → review và tự nộp. |
 | **Bottleneck** | Đối chiếu các yêu cầu được viết tự do trong JD với kinh nghiệm thật rồi diễn đạt lại CV/Cover Letter. Quan sát ban đầu cho thấy toàn workflow mất khoảng 20 phút/hồ sơ, nhưng baseline mới có một người. |
-| **Impact** | Với 10–20 hồ sơ/kỳ, effort ước tính 200–400 phút; workflow lặp lại có thể khiến ứng viên dùng một hồ sơ chung hoặc giảm số cơ hội họ sẵn sàng theo đuổi. |
+| **Impact** | Với 10-20 hồ sơ/kỳ, effort ước tính 200-400 phút; workflow lặp lại có thể khiến ứng viên dùng một hồ sơ chung hoặc giảm số cơ hội họ sẵn sàng theo đuổi. |
 | **Success Metric** | Trong pilot, median time không quá 10 phút/hồ sơ và giảm ít nhất 40% so với baseline thủ công của chính participant; 0 claim không có evidence ở bản cuối; relevance/readability đạt tối thiểu 4/5 theo rubric review. Tỷ lệ nhận phản hồi chỉ là metric theo dõi dài hạn. |
 | **Boundary** | Chỉ xử lý JD và master CV do ứng viên chủ động cung cấp; không suy diễn thuộc tính nhạy cảm; không bịa hoặc nâng khống claim; không tự chọn việc; không tự gửi/nộp hồ sơ; ứng viên approve mọi thay đổi. |
 | **AI intervention point** | Sau khi Rule trích tiêu chí từ JD và trước bước ứng viên chỉnh CV/Cover Letter: AI map tiêu chí với evidence có sẵn và tạo draft kèm provenance. |
@@ -331,7 +331,7 @@ Not Yet cho production integration hoặc auto-submit.
 4. Không cần nộp hồ sơ thật trong pilot.
 5. Timer ghi thời gian từng bước.
 6. Evidence checker đánh dấu mỗi claim trong output là supported/unsupported.
-7. Participant và một reviewer dùng rubric 1–5 cho relevance, readability và giữ đúng giọng cá nhân.
+7. Participant và một reviewer dùng rubric 1-5 cho relevance, readability và giữ đúng giọng cá nhân.
 
 **Điều kiện pilot pass:**
 
