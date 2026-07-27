@@ -1,4 +1,4 @@
-# Group Report — Day 02
+# Group Report - Day 02
 
 ## Thành viên nhóm
 
@@ -15,7 +15,7 @@
 
 ---
 
-# Phase 3 — Group Convergence: từ 14 candidates về 1
+# Phase 3 - Group Convergence: từ 14 candidates về 1
 
 ## 3.1. Danh sách candidates được nhóm pitch
 
@@ -24,7 +24,7 @@ Mỗi candidate được tóm tắt theo problem, actor, bottleneck và quick gu
 | # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn chính | Quick gut |
 |---:|---|---|---|---|---|
 | 1 | Đỗ Trung Kiên | Điều chỉnh CV và Cover Letter theo JD | Người muốn tìm việc và đang chuẩn bị ứng tuyển | Đọc JD, đối chiếu với master CV và viết lại bullet points/Cover Letter mà không bịa thông tin; khoảng 20 phút/hồ sơ | Workflow |
-| 2 | Đỗ Trung Kiên | Trợ lý hỗ trợ giải đáp câu hỏi lập trình | Sinh viên/người mới học lập trình | Câu hỏi đăng lên cộng đồng bị ngó lơ hoặc mỉa mai; phải tiếp tục tự tìm Stack Overflow | Workflow / Agent |
+| 2 | Đỗ Trung Kiên | LLM hỗ trợ giải đáp câu hỏi kỹ thuật trong cộng đồng công nghệ | Người học hoặc làm việc trong lĩnh vực công nghệ | Câu hỏi về bug/lập trình đăng lên cộng đồng công nghệ bị ngó lơ hoặc mỉa mai; phải tiếp tục tự tìm Stack Overflow | LLM |
 | 3 | Đỗ Trung Kiên | Chấm và feedback IELTS Writing | Người học IELTS trong thời gian gấp | Chờ giáo viên/trung tâm chấm 3-5 ngày; feedback đôi khi chung chung | Workflow |
 | 4 | Nguyễn Hồng Yến | Weekly Lab Progress Report | Thành viên và leader nhóm AI | Viết narrative tổng hợp từ Git và Discord mất khoảng 25 phút | Workflow |
 | 5 | Nguyễn Hồng Yến | Trích xuất ý chính từ AI research paper | Sinh viên/người nghiên cứu AI | Đọc 15-20 trang mất khoảng 75 phút/bài và khó lọc điểm cốt lõi | Workflow |
@@ -65,7 +65,7 @@ Worksheet sử dụng **7 tiêu chí**, mỗi tiêu chí chấm 1-5; vì vậy t
 
 | Candidate | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Điều chỉnh CV và Cover Letter theo JD | 5 | 5 | 4 | 5 | 5 | 5 | 5 | **34/35 — chọn** |
+| Điều chỉnh CV và Cover Letter theo JD | 5 | 5 | 4 | 5 | 5 | 5 | 5 | **34/35 - chọn** |
 | Sàng lọc bài báo nghiên cứu | 4 | 5 | 4 | 4 | 4 | 5 | 4 | 30/35 |
 | Tìm và sàng lọc phòng trọ | 5 | 4 | 4 | 4 | 4 | 4 | 4 | 29/35 |
 
@@ -73,7 +73,7 @@ Worksheet sử dụng **7 tiêu chí**, mỗi tiêu chí chấm 1-5; vì vậy t
 
 ```text
 Điều chỉnh CV và Cover Letter theo JD
-— đề xuất của Đỗ Trung Kiên.
+- đề xuất của Đỗ Trung Kiên.
 ```
 
 ### Vì sao chọn
@@ -107,7 +107,7 @@ Nội dung pitch, challenge, chấm điểm và quyết định là dữ liệu 
 - [x] Output của Phase 3 là **candidate problem**, chưa phải Problem Statement hoàn chỉnh.
 - [x] Target thời gian và giả thuyết AI được ghi là draft để validation ở Phase 4.
 
-## Output Phase 3 — Candidate problem nhóm đã chọn
+## Output Phase 3 - Candidate problem nhóm đã chọn
 
 ### Problem Card tóm tắt
 
@@ -125,7 +125,7 @@ Nội dung pitch, challenge, chấm điểm và quyết định là dữ liệu 
 
 ---
 
-# Phase 4 — Quick Validation và Research giải pháp
+# Phase 4 - Quick Validation và Research giải pháp
 
 ## 4.1. Quick validation
 
@@ -135,7 +135,7 @@ Nhóm hiện có một quan sát trực tiếp từ problem owner:
 
 - mỗi hồ sơ mất khoảng 20 phút để điều chỉnh CV và Cover Letter;
 - một kỳ tìm việc thường nộp 10-20 hồ sơ;
-- tổng effort suy ra là `20 phút × 10-20 hồ sơ = 200-400 phút`, tương đương khoảng 3 giờ 20 phút đến 6 giờ 40 phút.
+- tổng effort suy ra là `20 phút x 10-20 hồ sơ = 200-400 phút`, tương đương khoảng 3 giờ 20 phút đến 6 giờ 40 phút.
 
 Phép tính 200-400 phút là impact suy ra từ cùng một baseline, **không phải một mẫu validation độc lập**.
 
@@ -215,12 +215,12 @@ evidence do ứng viên cung cấp hay không”.
 
 ---
 
-# Phase 5 — Workflow và Problem Statement
+# Phase 5 - Workflow và Problem Statement
 
 ## 5.1. Current workflow bản nhóm
 
 ```text
-CURRENT STATE — 6 bước, khoảng 20 phút/hồ sơ
+CURRENT STATE - 6 bước, khoảng 20 phút/hồ sơ
 
 [1 Ứng viên đọc và đánh dấu JD]
 → [2 So sánh JD với master CV]
@@ -256,7 +256,7 @@ trong khi phải bảo đảm mọi kỹ năng, kinh nghiệm và thành tích �
 ## 5.2. Future workflow bản nhóm
 
 ```text
-FUTURE STATE — 6 bước, mục tiêu không quá 10 phút/hồ sơ
+FUTURE STATE - 6 bước, mục tiêu không quá 10 phút/hồ sơ
 
 [1 Ứng viên chọn JD + master CV: ~1']
 → [2 Rule kiểm tra input và trích tiêu chí: <1']
@@ -319,7 +319,7 @@ Các con số theo bước ở future state là **time budget của pilot**, kh�
 
 ---
 
-# Phase 6 — Rule / Workflow / Agent và Decision
+# Phase 6 - Rule / Workflow / Agent và Decision
 
 ## 6.0. Ma trận độ phù hợp với AI
 

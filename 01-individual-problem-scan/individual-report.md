@@ -2,113 +2,78 @@
 
 ## 1. Bối cảnh quan sát
 
-<!-- Mô tả ngắn vai trò, môi trường học tập/công việc và các workflow thường gặp. -->
+Tôi là sinh viên đang học tập trên trường, thực hiện quan sát các workflow thường gặp trong quá trình học tập, làm dự án, sinh hoạt hằng ngày và chuẩn bị tìm việc. Tôi tự liệt kê các pain đã gặp trước khi nhờ AI hỗ trợ diễn đạt. 
 
+## 2. Scan rộng theo bốn lăng kính
 
-## 2. Scan vấn đề theo bốn lăng kính
-
-### 2.1. Lặp lại
-
-<!-- Việc gì xuất hiện đều đặn mỗi ngày, tuần hoặc tháng? -->
-
-
-### 2.2. Tốn thời gian
-
-<!-- Việc gì mất nhiều thời gian ở bước tìm kiếm, đọc hiểu, tổng hợp, chờ đợi hoặc sửa lại? -->
-
-
-### 2.3. AI có thể hỗ trợ tốt hơn
-
-<!-- Bước nào cần đọc, viết, phân loại, so sánh hoặc tổng hợp ngữ cảnh? -->
-
-
-### 2.4. Khó khăn đến từ người khác
-
-<!-- Ai đang hỏi lại, phàn nàn, hiểu sai hoặc bỏ sót bước nào? -->
-
-
-## 3. Bảng tổng hợp problem scan
+Tôi scan được 10 problems, vượt mức tối thiểu 5 problems của worksheet.
 
 | # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? (Actor) | Dấu hiệu thật |
 |---:|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
-| 6 |  |  |  |  |
-| 7 |  |  |  |  |
-| 8 |  |  |  |  |
-| 9 |  |  |  |  |
-| 10 |  |  |  |  |
+| 1 | Lặp lại + Tốn thời gian | Mỗi JD có yêu cầu khác nhau nên phải điều chỉnh CV và Cover Letter cho từng công ty | Người muốn tìm việc và đang chuẩn bị ứng tuyển | Khoảng 20 phút/hồ sơ; một kỳ thường nộp 10-20 hồ sơ, tương đương khoảng 200-400 phút |
+| 2 | Khó khăn đến từ người khác + LLM có thể hỗ trợ tốt hơn | Khi hỏi bug hoặc xin ý kiến lập trình/kỹ thuật trên cộng đồng công nghệ, người hỏi có thể bị ngó lơ hoặc nhận phản hồi toxic | Người học hoặc làm việc trong lĩnh vực công nghệ cần trợ giúp kỹ thuật | Đã đăng 3 bài hỏi bug: 2 bài bị bỏ qua, 1 bài bị mỉa mai; phải tiếp tục tìm trên Stack Overflow nhưng chưa đo thời gian |
+| 3 | Tốn thời gian + AI có thể hỗ trợ tốt hơn | Người học IELTS cần feedback Writing gấp nhưng giáo viên/trung tâm trả bài chậm hoặc feedback chưa chi tiết | Người học IELTS trong thời gian gấp; giáo viên là stakeholder | Phải chờ khoảng 3-5 ngày; feedback đôi khi chỉ có band tổng mà không chữa chi tiết lỗi |
+| 4 | Tốn thời gian + AI có thể hỗ trợ tốt hơn | Có sẵn nguyên liệu nhưng khó quyết định nấu món gì và bắt đầu theo công thức nào | Người tự nấu ăn tại nhà, đặc biệt người ít kinh nghiệm nấu ăn | Pain vẫn xuất hiện khi nguyên liệu đã có sẵn: phải dừng lại để nghĩ món và tìm công thức; chưa ghi thời gian |
+| 5 | Lặp lại + Tốn thời gian | Lên plan và sắp xếp thứ tự công việc hằng ngày mất thời gian | Cá nhân có nhiều việc học, việc làm và deadline trong ngày | Lặp lại mỗi ngày, tương đương khoảng 7 phiên lập kế hoạch/tuần; chưa bấm giờ hoặc ghi số lần đổi lịch |
+| 6 | Tốn thời gian + AI có thể hỗ trợ tốt hơn | Phải đọc và lọc nhiều JD trước khi tìm được vị trí phù hợp với kỹ năng, kinh nghiệm và mong muốn | Người muốn tìm việc | Mỗi phiên tìm việc phải mở và so sánh nhiều hơn một JD trước khi tạo shortlist; chưa ghi số lượng và thời gian chính xác |
+| 7 | Lặp lại + Tốn thời gian | Thông báo, deadline và tài liệu nằm trên nhiều kênh nên phải mở từng nơi để theo dõi | Học viên/người đi làm sử dụng nhiều nền tảng | Có ít nhất 5 kênh cần kiểm tra: VLearn, Codelab, Discord, Outlook và Gmail; chưa có log số lần kiểm tra hoặc việc bị bỏ sót |
+| 8 | Lặp lại + Khó khăn đến từ người khác | Sau họp nhóm phải tổng hợp biên bản, quyết định và chia task để các thành viên cùng hiểu | Người ghi biên bản, trưởng nhóm và thành viên nhóm | Sau mỗi buổi họp phải tạo ít nhất một biên bản và danh sách task/owner/deadline; chưa đo thời gian và số lần hỏi lại |
+| 9 | Tốn thời gian + AI có thể hỗ trợ tốt hơn | Đọc hiểu tài liệu dài hoặc nhiều thuật ngữ làm chậm việc học và triển khai task | Học viên, lập trình viên hoặc thành viên dự án cần dùng tài liệu | Với mỗi tài liệu khó, phải tra thuật ngữ và đọc lại nhiều đoạn trước khi làm tiếp; chưa ghi số trang hoặc thời gian |
+| 10 | Lặp lại + Tốn thời gian + AI có thể hỗ trợ tốt hơn | Viết hàng loạt đoạn code kiểm thử cho nhiều chức năng có cấu trúc tương tự rất nhàm chán và tốn thời gian | Lập trình viên/QA automation engineer; reviewer là stakeholder | Với mỗi chức năng, pattern setup-input-assertion phải lặp lại cho nhiều test case; chưa ghi số case hoặc thời gian trung bình |
 
-> Dấu hiệu thật có thể gồm: thời gian mỗi lần, tần suất, số người gặp, log/ticket/comment, hậu quả hoặc workaround hiện tại.
+## 3. Quan sát theo từng lăng kính
 
-## 4. Problem tự quan sát trước khi hỏi AI
+### 3.1. Lặp lại
 
-<!-- Ghi rõ những problem được tự quan sát trước khi sử dụng AI. -->
+- Điều chỉnh CV và Cover Letter cho 10-20 hồ sơ trong một kỳ tìm việc.
+- Lên kế hoạch công việc mỗi ngày.
+- Kiểm tra nhiều kênh thông tin.
+- Tổng hợp biên bản và chia task sau các buổi họp.
+- Viết các test case có cấu trúc tương tự cho nhiều chức năng.
 
-| # | Problem tự quan sát | Vì sao đây là pain thật? | Bằng chứng hiện có |
-|---:|---|---|---|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
+### 3.2. Tốn thời gian
 
-## 5. Gợi ý bổ sung từ AI (nếu có)
+- Điều chỉnh hồ sơ theo JD.
+- Chờ feedback IELTS Writing.
+- Chọn món dù đã có nguyên liệu.
+- Lên daily plan.
+- Tìm JD phù hợp.
+- Theo dõi VLearn, Codelab, Discord, Outlook và Gmail.
+- Đọc hiểu tài liệu.
+- Viết code kiểm thử lặp lại.
 
-<!-- Chỉ điền phần này sau khi đã có ít nhất 5 problem tự quan sát. -->
+### 3.3. AI có thể hỗ trợ tốt hơn
 
-| # | Gợi ý của AI | Giữ hay loại? | Lý do |
-|---:|---|---|---|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
+Các bước có tiềm năng để AI hỗ trợ gồm đọc/nghiên cứu JD, đối chiếu thông tin, gợi ý món từ constraint nguyên liệu, sắp xếp task theo context, tổng hợp cuộc họp, giải thích tài liệu và tạo bản nháp test case. Đây mới là nhận định ở mức scan; chưa phải quyết định chọn AI.
 
-## 6. Kết quả sau khi loại bỏ ý không thực tế
+### 3.4. Khó khăn đến từ người khác
 
-<!-- Ghi lại danh sách problem cuối cùng sau khi loại các ý không xuất phát từ trải nghiệm thật. -->
+- Câu hỏi lập trình/kỹ thuật trong cộng đồng công nghệ bị bỏ qua hoặc nhận phản hồi toxic.
+- Feedback IELTS phụ thuộc vào thời gian và mức độ chi tiết của người chấm.
+- Biên bản họp/chia task không rõ có thể khiến thành viên hiểu khác nhau hoặc phải hỏi lại.
 
-
-## 7. Ghi chú về việc sử dụng AI
-
-<!-- AI được hỏi ở thời điểm nào, hỗ trợ điều gì và gợi ý nào đã bị loại? -->
-
-
-## 8. Self-check Phase 1
-
-- [ ] Tôi đã tự quan sát trước khi hỏi AI.
-- [ ] Tôi có ít nhất 5 problem cụ thể.
-- [ ] Danh sách phủ nhiều lăng kính.
-- [ ] Mỗi problem có actor rõ.
-- [ ] Mỗi problem có dấu hiệu thật hoặc cách thu thập bằng chứng.
-- [ ] Tôi đã loại các ý không xuất phát từ trải nghiệm thực tế.
-- [ ] Tôi chưa nhảy sang chọn giải pháp hoặc Agent.
 
 ---
 
 # Phase 2 — Top 3 Problem Cards và Draft Workflow
 
-> Phase 1 tạm thời được bỏ qua theo tiến độ hiện tại. Phase 2 sử dụng trực tiếp ba problem đã quan sát. Các target chưa được kiểm chứng được ghi rõ là **mục tiêu pilot**, không được coi là dữ liệu thật.
-
 ## 1. Xếp hạng Top 3
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Điều chỉnh CV và Cover Letter theo từng JD | Actor và workflow rõ; xảy ra 10–20 lần trong một kỳ tìm việc; có baseline khoảng 20 phút cho mỗi công ty nên impact thời gian dễ đo. | Chưa có dữ liệu chứng minh việc cá nhân hóa làm tăng tỷ lệ được phản hồi; chưa biết phần nào của 20 phút tốn nhiều nhất. |
-| 2 | Nhận feedback chi tiết cho IELTS Writing trong thời gian gấp | Pain có baseline rõ: phải chờ 3–5 ngày; output có thể kiểm theo bốn tiêu chí IELTS Writing; phù hợp với mô hình AI hỗ trợ trước, giáo viên kiểm tra sau. | Chưa biết độ nhất quán giữa feedback AI và giáo viên; “feedback chi tiết” cần được định nghĩa bằng checklist cụ thể. |
-| 3 | Tìm trợ giúp chuyên môn nhưng bị phớt lờ hoặc phản hồi toxic | Có dấu hiệu thật từ ba bài đã đăng; impact không chỉ là thời gian mà còn ảnh hưởng động lực và tâm lý của người hỏi. | Mẫu quan sát mới có ba bài; loại câu hỏi và cộng đồng chưa được ghi rõ; advice sai có thể gây hại và AI không thể thay thế cộng đồng/mentor trong mọi trường hợp. |
+| 1 | Điều chỉnh CV và Cover Letter theo từng JD | Actor và workflow rõ; xảy ra 10-20 lần trong một kỳ tìm việc; có baseline khoảng 20 phút cho mỗi công ty nên impact thời gian dễ đo. | Chưa có dữ liệu chứng minh việc cá nhân hóa làm tăng tỷ lệ được phản hồi; chưa biết phần nào của 20 phút tốn nhiều nhất. |
+| 2 | Nhận feedback chi tiết cho IELTS Writing trong thời gian gấp | Pain có baseline rõ: phải chờ 3-5 ngày; output có thể kiểm theo bốn tiêu chí IELTS Writing; phù hợp với mô hình AI hỗ trợ trước, giáo viên kiểm tra sau. | Chưa biết độ nhất quán giữa feedback AI và giáo viên; “feedback chi tiết” cần được định nghĩa bằng checklist cụ thể. |
+| 3 | Tìm trợ giúp kỹ thuật trong cộng đồng công nghệ nhưng bị phớt lờ hoặc phản hồi toxic | Có dấu hiệu thật từ ba bài hỏi bug đã đăng; impact gồm thời gian tìm tiếp và giảm động lực đặt câu hỏi. | Mẫu quan sát mới có ba bài; chưa biết pain có lặp lại trên các cộng đồng công nghệ khác hay không; câu trả lời kỹ thuật của LLM có thể sai hoặc không an toàn. |
 
 ## 2. Problem Card #1 — Điều chỉnh CV và Cover Letter theo JD
 
 ### Problem một câu
 
-Sinh viên hoặc người mới tốt nghiệp đang tìm việc phải mất khoảng 20 phút để điều chỉnh CV và Cover Letter cho từng JD; với 10–20 công ty trong một kỳ tìm việc, workflow này lặp lại nhiều lần và làm giảm thời gian dành cho tìm hiểu doanh nghiệp, luyện phỏng vấn và nâng cao kỹ năng.
+Người muốn tìm việc và đang chuẩn bị ứng tuyển phải mất khoảng 20 phút để điều chỉnh CV và Cover Letter cho từng JD; với 10-20 công ty trong một kỳ tìm việc, workflow này lặp lại nhiều lần và làm giảm thời gian dành cho tìm hiểu doanh nghiệp, luyện phỏng vấn và nâng cao kỹ năng.
 
 ### Actor
 
-- **Actor chính:** sinh viên năm cuối hoặc người mới tốt nghiệp đang chủ động ứng tuyển.
+- **Actor chính:** người muốn tìm việc và đang chủ động chuẩn bị hồ sơ ứng tuyển, bao gồm người tìm việc lần đầu, muốn đổi việc hoặc chuyển ngành.
 - **Stakeholder liên quan:** nhà tuyển dụng nhận và sàng lọc hồ sơ.
 
 Nhà tuyển dụng là stakeholder chứ không phải actor chính của pain “mất thời gian điều chỉnh hồ sơ”.
@@ -128,12 +93,12 @@ Mỗi lần ứng viên tìm được một JD phù hợp và chuẩn bị nộp
 
 ### Bottleneck
 
-Cụm bước 2–5: phải hiểu JD, đối chiếu với nhiều trải nghiệm cá nhân và diễn đạt lại mà không làm sai sự thật. Tổng workflow hiện mất khoảng **20 phút cho mỗi công ty**.
+Cụm bước 2-5: phải hiểu JD, đối chiếu với nhiều trải nghiệm cá nhân và diễn đạt lại mà không làm sai sự thật. Tổng workflow hiện mất khoảng **20 phút cho mỗi công ty**.
 
 ### Impact
 
-- Một kỳ tìm việc thường nộp 10–20 công ty.
-- Tổng effort ước tính: `20 phút × 10–20 hồ sơ = 200–400 phút`, tương đương khoảng **3 giờ 20 phút đến 6 giờ 40 phút**.
+- Một kỳ tìm việc thường nộp 10-20 công ty.
+- Tổng effort ước tính: `20 phút x 10-20 hồ sơ = 200-400 phút`, tương đương khoảng **3 giờ 20 phút đến 6 giờ 40 phút**.
 - Việc lặp lại có thể khiến ứng viên dùng một CV chung cho mọi vị trí hoặc bỏ qua một số cơ hội.
 
 ### Success metric
@@ -148,7 +113,7 @@ Mục tiêu pilot:
 ### Non-AI alternative
 
 - Duy trì một master CV chứa toàn bộ kinh nghiệm.
-- Chuẩn bị 2–3 CV template theo nhóm vị trí.
+- Chuẩn bị 2-3 CV template theo nhóm vị trí.
 - Dùng checklist từ khóa và Cover Letter template có các vùng cần thay.
 - Chỉ cá nhân hóa những phần có tác động cao thay vì viết lại toàn bộ hồ sơ.
 
@@ -158,11 +123,9 @@ AI có thể trích xuất yêu cầu từ JD, đối chiếu với master CV, c
 
 ### Quick gut
 
-- [ ] No AI / process fix
-- [ ] Rule
-- [x] Workflow
-- [ ] Agent
-- [ ] Chưa biết
+```text
+Workflow
+```
 
 Workflow được chọn ở mức phỏng đoán ban đầu vì các bước có thứ tự cố định và cần human review; chưa có lý do để AI tự lập kế hoạch hoặc tự nộp hồ sơ như một Agent.
 
@@ -201,40 +164,40 @@ Không bịa kỹ năng, kinh nghiệm hoặc thành tích;
 không tự gửi hồ sơ; không thay ứng viên quyết định nội dung cuối.
 ```
 
-## 3. Problem Card #2 — Trợ giúp chuyên môn thiếu an toàn và thiếu phản hồi
+## 3. Problem Card #2 — Trợ giúp kỹ thuật trong cộng đồng công nghệ thiếu phản hồi
 
 ### Problem một câu
 
-Sinh viên có thắc mắc chuyên môn phải hỏi cộng đồng, bạn bè hoặc mentor nhưng có thể bị phớt lờ hay nhận phản hồi mỉa mai; việc này kéo dài quá trình giải quyết vấn đề, làm giảm động lực đặt câu hỏi và có thể ảnh hưởng tiêu cực đến tâm lý.
+Người học hoặc làm việc trong lĩnh vực công nghệ có câu hỏi về bug, lập trình, công cụ hoặc khái niệm kỹ thuật phải tìm trợ giúp trên cộng đồng công nghệ nhưng có thể bị phớt lờ hoặc nhận phản hồi mỉa mai, khiến quá trình xử lý vấn đề kéo dài và làm giảm động lực đặt câu hỏi.
 
 ### Actor
 
-- **Actor chính:** sinh viên hoặc người mới học một lĩnh vực đang cần giải đáp thắc mắc.
-- **Stakeholder liên quan:** bạn bè, mentor, moderator và thành viên cộng đồng trả lời câu hỏi.
+- **Actor chính:** người học hoặc làm việc trong lĩnh vực công nghệ đang cần giải đáp câu hỏi lập trình/kỹ thuật.
+- **Stakeholder liên quan:** mentor, moderator và thành viên của cộng đồng công nghệ.
 
 ### Thời điểm / bối cảnh
 
-Khi người học gặp bug hoặc không hiểu một khái niệm, đã thử tự giải quyết nhưng vẫn cần ý kiến từ người có kinh nghiệm.
+Khi actor gặp bug, lỗi công cụ hoặc không hiểu một khái niệm kỹ thuật, đã thử tự tìm nhưng vẫn cần hướng xử lý tiếp theo.
 
 ### Current workflow
 
 1. Gặp bug hoặc thắc mắc.
 2. Tự tìm kiếm từ khóa trên Google, tài liệu hoặc Stack Overflow.
-3. Viết và đăng câu hỏi lên cộng đồng.
+3. Viết và đăng câu hỏi lên forum, Discord hoặc cộng đồng công nghệ.
 4. Chờ phản hồi.
 5. Đọc, đánh giá thái độ và độ tin cậy của phản hồi.
 6. Thử giải pháp hoặc tiếp tục tìm ở nguồn khác.
 
 ### Bottleneck
 
-Bước 3–5: kết quả phụ thuộc vào việc có người nhìn thấy và sẵn lòng trả lời; phản hồi có thể chậm, không liên quan hoặc toxic. Khi không có câu trả lời hữu ích, người học phải quay lại tìm kiếm từ đầu.
+Bước 3–5: kết quả phụ thuộc vào việc có thành viên công nghệ nhìn thấy, hiểu đủ context và sẵn lòng trả lời; phản hồi có thể chậm, không liên quan hoặc toxic. Khi không có câu trả lời hữu ích, người hỏi phải quay lại tìm kiếm từ đầu.
 
 ### Impact
 
 - Quan sát hiện có: đăng ba bài hỏi bug thì hai bài bị bỏ qua và một bài nhận phản hồi mỉa mai.
 - Trong mẫu nhỏ này, số bài nhận được phản hồi hữu ích là **0/3**.
-- Người học mất thêm thời gian tìm Stack Overflow; thời gian cụ thể chưa được đo.
-- Hệ quả tiềm ẩn: giảm động lực, ngại đặt câu hỏi và có thể phản ứng tiêu cực với người khác. Tác động tâm lý cần được hỏi trực tiếp, không suy diễn từ ba bài đăng.
+- Người hỏi mất thêm thời gian tìm Stack Overflow hoặc tài liệu kỹ thuật; thời gian cụ thể chưa được đo.
+- Hệ quả quan sát cần kiểm tra thêm: ngại tiếp tục đặt câu hỏi trong cộng đồng công nghệ và chậm giải quyết bug/task.
 
 ### Success metric
 
@@ -242,29 +205,28 @@ Mục tiêu pilot:
 
 - ít nhất 80% câu hỏi thử nghiệm nhận được một hướng xử lý có thể hành động trong vòng 15 phút;
 - câu trả lời phải nêu giả định, bước kiểm tra và nguồn tham khảo khi có thể;
-- người học đánh giá mức hữu ích từ 4/5 trở lên;
-- lời khuyên chỉ được coi là đúng sau khi người học chạy thử hoặc đối chiếu tài liệu.
+- người hỏi đánh giá mức hữu ích từ 4/5 trở lên;
+- câu trả lời phải phân biệt phần chắc chắn với phần giả định;
+- hướng dẫn chỉ được coi là đúng sau khi người hỏi chạy test hoặc đối chiếu tài liệu chính thức.
 
 Baseline thời gian tìm kiếm và điểm hữu ích hiện chưa có, cần đo trước pilot.
 
 ### Non-AI alternative
 
 - Dùng template hỏi bug gồm context, expected result, actual result, code tối thiểu và các bước đã thử.
-- Tạo kênh hỏi đáp có moderator và quy tắc ứng xử.
-- Tổ chức office hour hoặc ghép buddy/mentor.
+- Tạo kênh công nghệ có moderator và quy tắc ứng xử.
+- Tổ chức technical office hour hoặc ghép buddy/mentor.
 - Dùng checklist tìm kiếm tài liệu trước khi đăng câu hỏi.
 
 ### AI hypothesis
 
-AI có thể giúp người học viết lại câu hỏi cho rõ, hỏi thêm context còn thiếu, giải thích khái niệm và đề xuất các bước debug ban đầu. Với câu trả lời không chắc hoặc rủi ro cao, AI phải chỉ rõ giới hạn và chuyển sang tài liệu chính thức/mentor.
+LLM có thể yêu cầu bổ sung context, giải thích khái niệm, đề xuất bước debug ban đầu và hỗ trợ viết câu hỏi tối thiểu có thể tái hiện. Khi không chắc, LLM phải nói rõ giả định, dẫn người dùng tới tài liệu chính thức hoặc đề nghị chuyển cho mentor/cộng đồng công nghệ.
 
 ### Quick gut
 
-- [ ] No AI / process fix
-- [ ] Rule
-- [x] Workflow
-- [ ] Agent
-- [ ] Chưa biết
+```text
+LLM
+```
 
 ### Draft current workflow
 
@@ -284,28 +246,28 @@ CURRENT STATE — thời gian chưa đo
 ```text
 FUTURE STATE — mục tiêu có next step trong 15 phút
 
-[Người học mô tả vấn đề]
+[Người hỏi mô tả bug/câu hỏi kỹ thuật]
 → [Rule kiểm tra context tối thiểu]
-→ [AI hỏi lại thông tin còn thiếu]
-→ [AI gợi ý bước debug + nguồn]
-→ [Người học chạy thử]              <-- human verification
-→ [Chưa giải quyết được: chuyển mentor/cộng đồng]
+→ [LLM hỏi lại thông tin còn thiếu]
+→ [LLM gợi ý bước debug + nguồn]
+→ [Người hỏi chạy test]              <-- human verification
+→ [Chưa giải quyết được: chuyển mentor/cộng đồng công nghệ]
 
 Fallback:
-AI không chắc hoặc giải pháp không chạy
+LLM không chắc hoặc giải pháp không chạy
 → giữ nguyên log/context
-→ tạo câu hỏi chuẩn hóa để nhờ mentor/cộng đồng.
+→ tạo câu hỏi chuẩn hóa để nhờ mentor/cộng đồng công nghệ.
 
 Boundary:
-Không giả vờ chắc chắn; không đưa chẩn đoán sức khỏe tâm thần;
-không thay moderator hoặc mentor trong tình huống phức tạp.
+Không giả vờ chắc chắn; không yêu cầu chạy code/lệnh nguy hiểm mà thiếu cảnh báo;
+không thay moderator hoặc mentor trong tình huống kỹ thuật phức tạp.
 ```
 
 ## 4. Problem Card #3 — Feedback IELTS Writing đến chậm và thiếu chi tiết
 
 ### Problem một câu
 
-Sinh viên ôn IELTS trong thời gian gấp phải chờ khoảng 3–5 ngày để nhận feedback Writing từ giáo viên hoặc trung tâm; feedback đôi khi chỉ có band tổng mà không chỉ rõ lỗi và cách sửa, làm chậm vòng lặp viết–nhận xét–viết lại.
+Sinh viên ôn IELTS trong thời gian gấp phải chờ khoảng 3-5 ngày để nhận feedback Writing từ giáo viên hoặc trung tâm; feedback đôi khi chỉ có band tổng mà không chỉ rõ lỗi và cách sửa, làm chậm vòng lặp viết-nhận xét-viết lại.
 
 ### Actor
 
@@ -322,12 +284,12 @@ Sau khi học viên hoàn thành một bài IELTS Writing Task 1 hoặc Task 2 v
 2. Nộp bài cho giáo viên/trung tâm.
 3. Chờ giáo viên sắp xếp thời gian chấm.
 4. Giáo viên đọc, ước lượng band và ghi nhận xét.
-5. Học viên nhận feedback sau 3–5 ngày.
+5. Học viên nhận feedback sau 3-5 ngày.
 6. Học viên tự hiểu nhận xét và sửa bài.
 
 ### Bottleneck
 
-- Thời gian chờ ở bước 3 kéo dài 3–5 ngày.
+- Thời gian chờ ở bước 3 kéo dài 3-5 ngày.
 - Feedback ở bước 4 đôi khi chỉ có band tổng, thiếu lỗi cụ thể và hướng sửa theo từng tiêu chí.
 
 ### Impact
@@ -359,20 +321,18 @@ AI có thể tạo feedback vòng đầu theo rubric, trích dẫn trực tiếp
 
 ### Quick gut
 
-- [ ] No AI / process fix
-- [ ] Rule
-- [x] Workflow
-- [ ] Agent
-- [ ] Chưa biết
+```text
+Workflow
+```
 
 ### Draft current workflow
 
 ```text
-CURRENT STATE — chờ khoảng 3–5 ngày
+CURRENT STATE — chờ khoảng 3-5 ngày
 
 [Học viên viết bài]
 → [Nộp cho giáo viên/trung tâm]
-→ [Chờ được chấm 3–5 ngày]          <-- bottleneck
+→ [Chờ được chấm 3-5 ngày]          <-- bottleneck
 → [Nhận band/feedback]
 → [Tự hiểu lỗi]
 → [Sửa và viết lại]
@@ -404,49 +364,11 @@ không thay thế giáo viên ở quyết định đánh giá cuối.
 
 ## 5. So sánh nhanh ba Problem Card
 
-| Tiêu chí | CV/Cover Letter | Trợ giúp chuyên môn | IELTS Writing |
+| Tiêu chí | CV/Cover Letter | Trợ giúp kỹ thuật trong cộng đồng công nghệ | IELTS Writing |
 |---|---|---|---|
-| Actor rõ | Cao | Trung bình–cao | Cao |
+| Actor rõ | Cao | Trung bình-cao | Cao |
 | Workflow vẽ được | Cao | Cao | Cao |
-| Baseline hiện có | 20 phút × 10–20 hồ sơ | 0/3 bài có phản hồi hữu ích; chưa có baseline thời gian | Chờ 3–5 ngày |
+| Baseline hiện có | 20 phút x 10-20 hồ sơ | 0/3 bài có phản hồi hữu ích; chưa có baseline thời gian | Chờ 3-5 ngày |
 | Impact đo được | Thời gian/hồ sơ, thời gian/kỳ, tỷ lệ phản hồi | Thời gian tới next step, useful-response rate, điểm hữu ích | Thời gian chờ, độ phủ feedback, điểm hữu ích |
-| Rủi ro chính | Bịa kỹ năng/thành tích, văn phong mất tự nhiên | Advice sai, phụ thuộc AI, scope tâm lý quá rộng | Band thiếu ổn định, học viên phụ thuộc hoặc dùng AI viết thay |
-| Non-AI alternative | Master CV + template + checklist | Moderated community + question template + office hour | Rubric tự chấm + peer review + comment bank |
-| Quick gut | Workflow | Workflow | Workflow |
-
-## 6. Card muốn pitch nhất
-
-**Card được chọn để pitch:** Problem Card #1 — Điều chỉnh CV và Cover Letter theo từng JD.
-
-### Vì sao
-
-- Có workflow lặp lại rõ nhất.
-- Có baseline định lượng trực tiếp: khoảng 20 phút/hồ sơ và 10–20 hồ sơ/kỳ.
-- Có thể chạy pilot nhỏ mà không cần quyền truy cập hệ thống phức tạp.
-- Có human boundary rõ: ứng viên xác minh claim và tự nộp.
-- Có thể so sánh nghiêm túc giữa template/rule, workflow có AI và agent.
-
-### Pitch ngắn
-
-Sinh viên và người mới tốt nghiệp thường phải điều chỉnh CV cùng Cover Letter cho từng JD. Mỗi hồ sơ mất khoảng 20 phút; với 10–20 công ty, tổng effort khoảng 3 giờ 20 phút đến 6 giờ 40 phút trong một kỳ tìm việc. Bước khó nhất là đối chiếu JD với kinh nghiệm thật rồi diễn đạt lại mà không bịa thông tin. Tôi muốn kiểm tra liệu một workflow trích yêu cầu, gợi ý nội dung và bắt buộc ứng viên review có thể giảm thời gian xuống không quá 10 phút/hồ sơ hay không.
-
-### Câu hỏi muốn nhóm challenge
-
-1. Baseline 20 phút nằm nhiều nhất ở đọc JD, sửa CV hay viết Cover Letter?
-2. Có cần cá nhân hóa cả CV và Cover Letter cho mọi công ty không, hay template/rule đã giải được phần lớn trường hợp?
-3. Success metric có nên ưu tiên thời gian, tỷ lệ được phản hồi hay chất lượng hồ sơ do recruiter đánh giá?
-4. Làm sao phát hiện và chặn AI bịa kỹ năng hoặc thành tích?
-5. Có bằng chứng nào cho thấy cá nhân hóa hồ sơ thực sự tăng cơ hội được phản hồi trong nhóm đối tượng này?
-
-## 7. Self-check Phase 2
-
-- [x] Có ba Problem Card.
-- [x] Mỗi card có actor và stakeholder rõ.
-- [x] Mỗi card có current workflow từ 3–7 bước.
-- [x] Bottleneck được chỉ ra.
-- [x] Evidence thật được tách khỏi target pilot.
-- [x] Có success metric dự thảo.
-- [x] Có non-AI alternative.
-- [x] Có AI hypothesis và quick gut.
-- [x] Có draft current/future workflow và fallback.
-- [x] Đã chọn một card để pitch và chuẩn bị câu hỏi challenge.
+| Rủi ro chính | Bịa kỹ năng/thành tích, văn phong mất tự nhiên | Hướng dẫn kỹ thuật sai, code/lệnh không an toàn, phụ thuộc LLM | Band thiếu ổn định, học viên phụ thuộc hoặc dùng AI viết thay |
+| Quick gut | Workflow | LLM | Workflow |
