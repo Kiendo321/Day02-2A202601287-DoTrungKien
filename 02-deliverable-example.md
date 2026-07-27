@@ -308,7 +308,7 @@ Exit / rollback:
 
 - Nếu PM vẫn phải viết lại hơn 70% draft trong 2 tuần liên tiếp, hạ xuống template + dashboard.
 - Nếu AI bịa số liệu hoặc trích sai nguồn, không cho dùng trực tiếp trong report.
-
+    
 Decision rationale:
 
 - Problem rõ, workflow rõ, metric rõ.
